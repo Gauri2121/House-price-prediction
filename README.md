@@ -5,9 +5,9 @@ mechanism and driving factors.
 Today there is a large amount of data available on relevant statistics as well as
 on additional contextual factors, and it is natural to try to make use of these in
 order to improve our understanding of the industry. Notably, this has been done in
-Zillow’s Zestimate [4] and Kaggle’s competitions on housing prices [2].
+In housing prices 
 In some cases, non-traditional variables have proved to be useful predictors of
-real estate trends. For example, in [3] it is observed that Seattle apartments close
+real estate trends. For example,  it is observed that Seattle apartments close
 to specialty food stores such as Whole Foods experienced a higher increase in value
 than average.
 This project can be considered as a further step towards more evidence-based
@@ -21,8 +21,8 @@ of our data. This yields insights that can be helpful later when building a
 model, as well as insights that are independently interesting.
 • Feature Selection
 In order to avoid overfitting issues, we select 20(according to PCA [12])
-variables out of the original 36 by using methods ANOVA [9], LASSO [14],
+variables out of the original 36 by using methods ANOVA , LASSO [14],
 elastic net [15], forward feature selection, backward feature selection.
 • Modeling
-We apply Decision Tree [7], Random Forest [8] and Xgboost [6] models for
+We apply Decision Tree , Random Forest  and Xgboost models for
 prediction of the percentage change of the housing prices.
